@@ -1,4 +1,4 @@
-# created a class called vehicle
+# # created a class called vehicle
 class Vehicle
 
 #storing the default value of wheel also storing the empty value of year
@@ -108,3 +108,6 @@ puts myToyota.wheels
 myToyota.lightsOff
 puts myToyota.lightsOn?
 puts myToyota.speedUpCar
+
+#storing two of each type of car
+storingCars= Car[car1, car2]
